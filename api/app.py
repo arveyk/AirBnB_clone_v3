@@ -2,7 +2,7 @@
 """ App module """
 from api_views import app.vi.views
 from flask import Blueprint, Flask, render_template
-from models import storage
+from .models import storage
 
 app = Flask(__name__)
 app_views = Blueprint('app_views', __name__)
